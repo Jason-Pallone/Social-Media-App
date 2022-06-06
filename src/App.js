@@ -1,6 +1,6 @@
 function App() {
   return (
-    <p>Hello</p>
+    <p>Social Media App</p>
   );
 }
 
