@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Suspense fallback={<p>Loading...</p>} >
-        <Routes>
+        <Routes> 
           <Route path={ROUTES.LOGIN} element={<Login />} />
         </Routes>
       </Suspense>
