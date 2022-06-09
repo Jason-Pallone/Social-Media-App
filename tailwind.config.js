@@ -3,6 +3,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fill: (theme) =>({
+      red: theme('colors.reg.primary')
+    }),
     colors: {
       white: '#ffffff',
       blue: {
@@ -17,6 +20,9 @@ module.exports = {
         background: '#fafafa',
         primary: '#dbdbdb'
       },
+      red: {
+        primary:'#ed4956'
+      }
     },
     extend: {},
   },
